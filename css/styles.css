@@ -5,20 +5,21 @@ body, header, nav, main, footer, h1, div, img {
 }
 
 body {
-     background-color: hsl(0, 2%, 29%);
+     background-color: hsl(0, 2%, 35%);
      font-family: Arial, Helvetica, sans-serif;  
      color: #f2f2f2;  
 }
 
-container { 
+img {
+     max-width: 100%;
+     display: block;
+}
+
+#container { 
      width: 80%;
      margin: 0 auto;
 }
 
-img {
-     max-width: 50%;
-     display: block;
-}
 
 header {
      width: 100%;
@@ -27,14 +28,12 @@ header {
 
 nav {
      width: 70%;
-     float: right;
      margin: 5em 3em 0 0;
 }
 
 nav ul {
-     list-style-type: none;
+     list-style-type: style; 
      margin: 0;
-     text-align: right;
 }
 
 nav li {
@@ -42,20 +41,17 @@ nav li {
      font-size: 1.5em;
      font-family: Arial, Helvetica, sans-serif;
      font-weight: bold;
-     text-align: center;
 }
 
 nav li a {
      display: block;
      color: #fff;
-     text-align: center;
      padding: 0.5em 1em;
      text-decoration: none;
 }
 
 main {
-     clear: left;
-     background-color: hsl(0, 0%, 55%);
+     clear: center;
      padding: 2%;
      font-size: 1.25em;
 }
@@ -65,12 +61,11 @@ h1 {
 }
 
 .footer {
-     background-color: white;
-     text-align: center;
-     left: 0;
-     bottom: 0;
-     width: 100%;
-     position: fixed;
+	clear: right;
+	text-align: center;
+	font-size: 1em;
+	padding: 0.5% 0%;
+     background-color: #f2f2f2;
 }
 
 .footer p {
@@ -86,13 +81,13 @@ h1 {
 }
 
 .topnav {
-     background-color: hsl(0, 1%, 48%);
-}
-
-.topnav a {
-     float: left;
-     color: #f2f2f2;
+     font-size: 3.5em;
      text-align: center;
+     ;
+}
+.topnav a {
+     text-align: center;
+     color: #f2f2f2;
      padding: 14px 16px;
      text-decoration: none;
      font-size: 20px;
@@ -105,16 +100,16 @@ h1 {
 }
 
 .header {
-     font-family: 'Sixtyfour Convergence';
+     font-family:Arial, Helvetica, sans-serif;
      font-size: 30px;
      color: #fff;
-     
 }
 
-#welcome, #chapters, #final {
+#welcome #chapters #final {
      width: 29%;
-     float: left;
+     float: center;
      margin: 0 2%;
+     text-align: center;
 }
 
 .action {
@@ -127,8 +122,6 @@ h1 {
 
 /* Style rules for header */
 header {
-     position: -webkit-sticky;
-     position: sticky;
      top: 0;
      background-color: #000;
      height: 190px;
@@ -137,3 +130,26 @@ header {
 header img {
      margin: 0 auto;
 }
+
+/* conatiner */
+.two-columns {
+     display: flex;
+ }
+ 
+ /*columns*/
+ .two-columns > * {
+     width: 50%;
+     padding: 1rem;
+ }
+ 
+ .contact {
+     width: 100vw;
+     height: 100vh;
+ }
+ 
+ .aboutmeimage {
+     width: 13em;
+     height: 15em;
+     display: block;
+     
+ }

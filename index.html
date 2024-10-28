@@ -15,7 +15,6 @@
           <header>
             <div class="header">
               <a href="index.html"><img src="images/elianweblogo.png" alt= "Elian's Web logo" height="220" width="297"></a>
-              <link rel="icon" type="image/x-icon" href="images/spidericon.png">
             </div>
           </header>
           <div class ="topnav">
@@ -25,6 +24,10 @@
                 <a href="chapters/chapters.html">CHAPTERS</a>
               
                 <a href="../Final Page/">FINAL PROJECT</a>
+
+                <a href="#two-columns">ABOUT</a>
+
+                <a href="#form">CONTACT</a>
             
           </div>
           
@@ -59,30 +62,39 @@
               </p>
             </div>
      
-          </main>
+          <hr>
             
-          <div class="about">
-            <h2> About Me </h2>
-            <article>
-              <figure>
-                <img src="images/aboutmepic.JPG">
-                <figcaption>Me during a photoshoot for the rapper AshleyJ</figcaption>
-              </figure>
-              <section class="about">
-                <p>Hello, My name is Elian. I'm currently in Gwinnett Tech for my AAS in Computer Programming.
-                     Some hobbies I partake in are playing the drums, boxing/MMA, mechanics, photography, learning coding languages, and also cooking.
-                     I also am very into exercsing and lifting, it helps me stay healthy and maintain my very nice 
-                     Alpha-Male physique... Anyways, I enjoy mechanics, especially the type on cars, and I also stick my head into a bit of
-                     photography here and there. Now, enough of me.</p>
-              </section>
-            </article>
-          </div>
+            <div id="two-columns" class="two-columns">
+              <h1 id="aboutme" class="aboutme">About Me</h1>
+                  <div><img src="images/aboutme-image.png" class="aboutmeimage"></div>
+                  <p>Hello, My name is Elian. I'm currently in Gwinnett Tech for my AAS in Computer Programming.
+                    Some hobbies I partake in are playing the drums, boxing/MMA, mechanics, photography, learning coding languages, and also cooking.
+                    I also am very into exercsing and lifting, it helps me stay healthy and maintain my very nice 
+                    Alpha-Male physique... Anyways, I enjoy mechanics, especially the type on cars, and I also stick my head into a bit of
+                    photography here and there. Now, enough of me.</p>
+            </div>
 
-          <div class= "footer">
-            <p>&copy;Copyright 2024. All Rights Reserved.</p>
-            <p><a href="mailto:evasque4330@student.gwinnetttech.edu">evasque4330@student.gwinnetttech.edu</a></p>
-          </div>    
-      
+            <div id="form">
+              <form>
+                <fieldset>
+                  <legend>Reach out to me!</legend>
+                  <label for="fname">First name:</label><br>
+                  
+                  <input type="text" id="fname" name="fname"><br>
+                  <label for="lname">Last name:</label><br>
+                  
+                  <input type="text" id="lname" name="lname"><br>
+                  
+                  <input type="submit" value="Submit">
+                </fieldset>
+              </form>
+            </div>
+
+            <div class= "footer">
+              <p>&copy;Copyright 2024. All Rights Reserved.</p>
+              <p><a href="mailto:evasque4330@student.gwinnetttech.edu">evasque4330@student.gwinnetttech.edu</a></p>
+            </div>    
+          </main>
         </div>
     </body>
 </html>

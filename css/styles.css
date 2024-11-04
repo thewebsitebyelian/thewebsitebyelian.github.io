@@ -18,6 +18,9 @@ img {
      display: block;
 }
 
+header{
+     background-image: url(../images/bunnyeatingcarrot.jpg);
+}
 .header {
      background-color: white;
      position: fixed;

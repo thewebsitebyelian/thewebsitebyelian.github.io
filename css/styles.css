@@ -13,22 +13,18 @@ body {
      color: #f2f2f2;  
 }
 
-img {
-     max-width: 100%;
-     display: block;
-}
 
 header{
-     background-image: url(../images/bunnyeatingcarrot.jpg);
-     background-repeat: no-repeat;
+     margin: auto;
+     background-image: url(../images/halloween-spider-header.jpg);
      background-size: cover;
 }
 .header {
      background-color: white;
-     position: fixed;
+     position: sticky;
      box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
      width: 100vw;
-     height: 50vh;
+     height: 30vh;
      z-index: 3;
 }
 
@@ -56,6 +52,9 @@ header{
      display: block;
      font-size: 2em;
      padding: 10px 20px;
+     color: #f2f2f2;
+     text-shadow: hsl(0, 0%, 0%) 2px 3px;
+     font-family: 'Bebas Neue';
 }
 
 .header .menu {
@@ -147,6 +146,7 @@ a {
      }
 }
 main {
+     margin-top: auto;
      clear: center;
      padding: 2%;
      font-size: 1.25em;

@@ -71,7 +71,7 @@ header{
 }
 
 .header .menu-icon .nav-icon {
-     background: #333;
+     background: #FFFFFF;
      display: block;
      height: 2px;
      width: 18px;
@@ -80,7 +80,7 @@ header{
 }
 
 .header .menu-icon .nav-icon:before {
-     background: #333;
+     background: #FFFFFF;
      content:"";
      display: block;
      height: 100%;
@@ -91,7 +91,7 @@ header{
 }
 
 .header .menu-icon .nav-icon:after {
-     background: #333;
+     background: #FFFFFF;
      content:"";
      display: block;
      height: 100%;

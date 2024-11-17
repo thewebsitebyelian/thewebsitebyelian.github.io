@@ -1,0 +1,106 @@
+/*
+Author: Elian Vasquez
+Date: 9/12/24
+File Name: styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, h3 {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	}
+	
+/* Style rule for body and images */
+	body {
+		background-color: #f6eee4;
+	}
+	
+	img {
+		max-width: 100%;
+		display: block;
+	}
+	
+/* Style rules for navigation area */
+	nav {
+		background-color: #2a1f14;
+	}
+	
+	nav ul {
+		list-style-type: none;
+		margin: 0;
+		text-align: center;
+	}
+	
+	nav li {
+		display: inline-block;
+		font-size: 1.5em;
+		font-family: Verdana, Arial, sans-serif;
+		font-weight: Bold;		
+	}
+	
+	nav li a {
+		display: block;
+		color: #f6eee4;
+		text-align: center;
+		padding: 0.5em 2em;
+		text-decoration: none;
+	}
+	
+/* Style rules for main content */
+	main {
+		padding: 2%;
+		background-color: #e5e9fc;
+		overflow: auto;
+		font-family: Verdana, Arial, sans-serif;
+	}
+		
+	main p {
+		font-size: 1.25em;
+	}
+	
+	main h3 {
+		padding-top: 2%;
+	}
+	
+	main ul {
+		list-style-type: square;
+	}
+	
+	
+	.action {
+		font-size: 1.75em;
+		text-align: center;
+		font-weight: bold;
+		}
+	
+	.link {
+		color: #4d3319;
+		text-decoration: none;
+		font-weight: Bold;
+		font-style: italic;
+	}
+	
+	#contact {
+	text-align: center;
+	}
+
+/* Style rules for footer content */
+footer {
+	text-align: center;
+	font-size: 0.85em;
+	background-color: #2a1f14;
+	color: #f6eee4;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 0%;
+	padding-right: 0%;
+	clear: left;
+	}
+footer a {
+	color: #f3e6d8;
+	text-decoration: none;
+	}
+	
+	
+	

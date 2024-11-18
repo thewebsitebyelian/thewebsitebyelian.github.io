@@ -194,21 +194,14 @@ footer .copyright {width: 100vw; text-align: center;}
   background: rgb(254, 255, 255);
 }
 
-.facebook {
-    background: #3B5998;
-    color: rgb(0, 0, 0);
-    height: 50px;
-    width: 50px;
-    padding: 20px;
+.social {
+     float: right;
+     background: #f2f2f2;
+     width: 25%;
+     height: 300px;
+     padding: 10px;
 }
   
-.instagram {
-    background: #3B5998;
-    color: rgb(0, 0, 0);
-    height: 50px;
-    width: 50px;
-    padding: 20px;
-}
 
 .action {
      font-size: 1.35em;

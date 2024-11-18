@@ -1,86 +1,38 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+<!--
+  Elian Vasquez
+  CIST1510
+-->
+  <head>
+    <title>Elian's Web Homepage</title>
+    <meta charset= "UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Attractive Table with Merged Cell</title>
-    <style>
-        table {
-            width: 80%;
-            margin: 20px auto;
-            border-collapse: collapse;
-        }
-
-        td {
-            border: 2px solid #333;
-            text-align: center;
-            padding: 10px;
-            font-family: Arial, sans-serif;
-        }
-
-        .center-cell {
-            background-color: #f0f0f0;
-        }
-
-        .edge-cell {
-            background-color: #e0f7fa;
-            color: #006064;
-        }
-
-        img {
-            display: block;
-            margin: 0 auto;
-        }
-    </style>
-</head>
-<body>
-
-<table cellspacing="5" cellpadding="5">
-    <!-- Row 1 -->
-    <tr>
-        <td class="edge-cell">Cell 1</td>
-        <td class="edge-cell">Cell 2</td>
-        <td class="edge-cell">Cell 3</td>
-        <td class="edge-cell">Cell 4</td>
-    </tr>
-
-    <!-- Row 2 -->
-    <tr>
-        <td class="edge-cell">Cell 5</td>
-        <!-- Center cell spanning 4 rows and 2 columns -->
-        <td class="center-cell" colspan="2" rowspan="4">
-            <img src="https://via.placeholder.com/150" alt="Center Image">
-            <p>Centered Image & Text</p>
-        </td>
-        <td class="edge-cell">Cell 6</td>
-    </tr>
-
-    <!-- Row 3 -->
-    <tr>
-        <td class="edge-cell">Cell 7</td>
-        <td class="edge-cell">Cell 8</td>
-    </tr>
-
-    <!-- Row 4 -->
-    <tr>
-        <td class="edge-cell">Cell 9</td>
-        <td class="edge-cell">Cell 10</td>
-    </tr>
-
-    <!-- Row 5 -->
-    <tr>
-        <td class="edge-cell">Cell 11</td>
-        <td class="edge-cell">Cell 12</td>
-    </tr>
-
-    <!-- Row 6 -->
-    <tr>
-        <td class="edge-cell">Cell 13</td>
-        <td class="edge-cell">Cell 14</td>
-        <td class="edge-cell">Cell 15</td>
-        <td class="edge-cell">Cell 16</td>
-    </tr>
-</table>
-
+    <link rel="icon" type="image/x-icon" href="images/spidericon.png">
+  </head>
+    <body>
+          <header class="header">
+              <a href="index.html" class="logo">Elian's Web</a>
+              <input class="menu-btn" type="checkbox" id="menu-btn">
+              <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+              <ul class="menu">
+                <li><a href="../chapters.html">HOME</a></li>
+              </ul>
+          </header>
+    <br><br><br><br>
+    <main>
+      <div class="labs">
+        <h1>Labs:</h1>
+            <ol>
+                <li><a href="lab01/index.html">Lab01</a></li>
+                <li><a href="lab02/index.html">Lab02</a></li>
+                <li><a href="lab03/pla">Lab03</a></li>
+            </ol>
+       </div>
+    </main>
+    <footer>
+      <p>&copy;Copyright 2024. All Rights Reserved.</p>
+      <p><a href="mailto:evasque4330@student.gwinnetttech.edu">evasque4330@student.gwinnetttech.edu</a></p>
+    </footer>
 </body>
 </html>
